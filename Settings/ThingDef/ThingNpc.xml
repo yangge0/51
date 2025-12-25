@@ -1,0 +1,19 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Npc" Name="NpcBase">
+		<MaxStack>1</MaxStack>
+		<Beauty>0</Beauty>
+		<MaxHitPoints>100</MaxHitPoints>
+		<UseHitPoints>1</UseHitPoints>
+		<Ling>
+			<LingThroughCost>0.01</LingThroughCost>
+			<LingNum>1</LingNum>
+			<LvUpNeedLing>1800</LvUpNeedLing>
+			<ElementKind>None</ElementKind>
+			<ElementPower>0</ElementPower>
+		</Ling>
+	<StoryBnts>
+		<li Name="激励" Desc="找个人来激励自己" Story="Story_CheerUp" Cost="2" Icon="res/Sprs/ui/icon_hand" Appoint="8"/>
+	</StoryBnts>
+	</ThingDef>	
+
+</List></ThingDefs>

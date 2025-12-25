@@ -1,0 +1,41 @@
+﻿<Stories><List>
+
+<Story Name="Story_CheerUp"  Parent="BaseFillingStory">
+		<DisplayName>激励</DisplayName>
+		<Desc>你要激励什么？</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>炼器加速</Display> 
+				<OKResult>
+				CheerUpFabaoSpd();
+				</OKResult>
+			</li>
+			<li>
+				<Display>炼丹加速</Display> 
+				<OKResult>
+				CheerUpDanSpd();
+				</OKResult>
+			</li>
+			<li>
+				<Display>萃物成功100%</Display> 
+				<OKResult>
+				CheerUpLingYouRate();
+				</OKResult>
+			</li>
+			<li>
+				<Display>符箓品质100%</Display> 
+				<OKResult>
+				CheerUpFuQuality();
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>
+				me:AddMsg("[NAME]想了想...该做的事都做了，是时候道别了。");
+				</OKResult>
+			</li>
+		</Selections>
+</Story>
+
+</List></Stories>

@@ -1,0 +1,62 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="Story_KajiSpdUp" Type="Normal">
+		<DisplayName>器</DisplayName>
+		<Desc>被激励中，炼器速度加快，最多可以叠加5层</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" BAddV="10"/>
+		</Properties>
+	</Modifier>	
+	
+	<Modifier Name="Story_DanSpdUp" Type="Normal">
+		<DisplayName>丹</DisplayName>
+		<Desc>被激励中，炼丹速度加快</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" BAddV="5"/>
+		</Properties>
+	</Modifier>	
+	
+	<Modifier Name="Story_YouRateUp" Type="Normal">
+		<DisplayName>幽</DisplayName>
+		<Desc>幽萃成功率上升\n并临时增加灵气最大值</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="15000"/>
+		</Properties>
+	</Modifier>		
+	
+	<Modifier Name="Story_LingRateUp" Type="Normal">
+		<DisplayName>灵</DisplayName>
+		<Desc>灵萃成功率上升\n并临时增加灵气最大值</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="15000"/>
+		</Properties>
+	</Modifier>	
+	
+	<Modifier Name="Story_FuQualityUp" Type="Normal">
+		<DisplayName>符</DisplayName>
+		<Desc>符箓品质上升\n</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="200"/>
+		</Properties>
+	</Modifier>	
+	
+</List></ModifierDefs>
